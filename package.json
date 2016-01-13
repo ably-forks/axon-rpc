@@ -1,6 +1,6 @@
 {
   "name": "axon-rpc",
-  "version": "0.0.3",
+  "version": "0.0.4pre",
   "description": "Remote procedure calls built on top of axon.",
   "keywords": [
     "axon",
@@ -20,7 +20,7 @@
     "commander": "1.0.5"
   },
   "devDependencies": {
-    "axon": "2.0.0",
+    "axon": "git://github.com/ably-forks/axon.git#tls",
     "better-assert": "*",
     "mocha": "*"
   },
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/visionmedia/axon-rpc.git"
+    "url": "https://github.com/ably-forks/axon-rpc.git"
   },
   "license": "MIT"
 }
